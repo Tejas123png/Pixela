@@ -1,0 +1,50 @@
+body {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400; 
+  background-color: black;
+  color: aliceblue;
+}
+
+img {
+  width: 250px;
+ 
+  transition: 0.3s ease-in-out; 
+  border-radius: 10%;
+  display: block; /
+  justify-content: center;
+  
+}
+
+/* Hover effect for all images */
+img:hover {
+  transform: scale(1.05); 
+  /* Zoom effect applied only on hover */
+}
+h1{
+  text-align: center;
+  transition: all;
+}
+
+/* Link hover effect */
+a{
+  
+  transition: 0.3s ease-in-out;
+}
+.image-pair{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+div{padding: 1%;}
+.image-item a:hover{
+    transform: scale(1.1);
+    color:tomato;
+    
+}
+h1:hover{
+  
+  text-decoration: underline;
+  text-decoration-style:wavy ;
+  transform: scale(1.05);
+}
