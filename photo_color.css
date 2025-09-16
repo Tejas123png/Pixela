@@ -16,17 +16,17 @@ img {
   
 }
 
-/* Hover effect for all images */
+
 img:hover {
   transform: scale(1.05); 
-  /* Zoom effect applied only on hover */
+
 }
 h1{
   text-align: center;
   transition: all;
 }
 
-/* Link hover effect */
+
 a{
   
   transition: 0.3s ease-in-out;
@@ -48,3 +48,4 @@ h1:hover{
   text-decoration-style:wavy ;
   transform: scale(1.05);
 }
+
